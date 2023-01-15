@@ -1,0 +1,86 @@
+/*social header */
+.social-header .row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+}
+
+.social-header {
+    background: #0E0E0E;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 11.8887px;
+    padding: 8px;
+}
+
+.social-header a svg {
+    color: #FFA17A;
+    font-size: 14px;
+}
+
+.social-icon a {
+    margin: 0 16px;
+}
+
+.social-text {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-text p {
+    margin-left: 7px;
+}
+
+/*social header end*/
+
+.header-menu {
+    background: #146356;
+    padding: 22px 0px;
+}
+
+.menu-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul li a {
+    color: #F3EADA;
+    font-weight: 500;
+    font-size: 13.5871px;
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.search-area a svg {
+    font-size: 20px;
+    color: #A3DA8D;
+}
+
+button.help-btu {
+    background: #FFA17A;
+    border-radius: 3.39678px;
+    border: none;
+    font-weight: 700;
+    font-size: 13.5871px;
+    color: #FFFFFF;
+    padding: 10px 27px;
+    margin-left: 40px;
+}
+
+.menu ul li a.active, .menu ul li a.active svg {
+    color: #A3DA8D;
+    visibility: visible;
+}
+
+.menu ul li a svg {visibility: hidden;}
+
+.menu ul li a:hover svg , .menu ul li a:hover{
+    visibility: visible;
+    color: #A3DA8D;
+}
+

@@ -1,0 +1,36 @@
+.action-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FAFAFA;
+}
+
+img.action-img {
+    height: 438.18px;
+}
+
+.action-text {
+    width: 407px;
+    margin-right: 158px;
+}
+
+.action-text h3 {font-family: 'Manrope';font-style: normal;font-weight: 600;font-size: 35.6662px;line-height: 48px;color: #0E0E0E;margin-bottom: 20px;}
+
+.action-text p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.2855px;
+    line-height: 25px;
+    color: #575757;
+    margin-bottom: 33px;
+}
+
+button.action-btu {
+    background: #146356;
+    border-radius: 3.39678px;
+    border: none;
+    color: #FAFAFA;
+    font-size: 13px;
+    padding: 13px 33px;
+}

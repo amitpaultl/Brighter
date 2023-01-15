@@ -1,0 +1,174 @@
+.common-area .row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    align-items: center;
+}
+
+.common-2 {
+    width: 417px;
+}
+
+.common-2 h3 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35.6662px;
+    color: #0E0E0E;
+    line-height: 48px;
+}
+
+.common-2 p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.2855px;
+    line-height: 25px;
+    margin: 27px 0;
+    color: #575757;
+}
+
+.common-2 input {
+    background: #FAFAFA;
+/* lex/green(30%) */
+    border: 1.27379px solid #B9D1CD;
+    border-radius: 3.39678px;
+    width: 100%;
+    color: #575757;
+    padding: 13px 20px;
+    font-family: 'Manrope';
+    font-style: normal;
+    margin-bottom: 33px;
+    font-weight: 600;
+    font-size: 11.8887px;
+}
+
+.common-2 button {
+    background: #146356;
+    border-radius: 3.39678px;
+    border: none;
+    color: #FAFAFA;
+    font-size: 13px;
+    padding: 13px 33px;
+}
+
+.common-3 {
+    position: relative;
+}
+
+.image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 66px;
+    height: 66px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left: -33px;
+    margin-top: -33px;
+}
+
+.common-area {
+    padding: 78px 0;
+}
+
+.hero-text h4 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 30.571px;
+}
+
+.hero-text h4 span {
+    color: #FFA17A;
+}
+
+.hero-text h2 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64.5388px;
+    color: #FFFFFF;
+    margin-left: 64px;
+    margin-bottom: 27px;
+}
+
+.hero-text h2 span {
+    color: #A3DA8D;
+    font-weight: 700;
+}
+
+.hero-text p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.2855px;
+    line-height: 25px;
+    color: #FFFFFF;
+    width: 630.95px;
+    margin-bottom: 57px;
+}
+
+.hero-btu button {
+    border: 1px solid #fff;
+    background: no-repeat;
+    color: #fff;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13.5871px;
+    padding: 12px 28px;
+    border-radius: 5px;
+}
+
+button.bg-white {
+    background: #fff;
+    color: #000;
+    margin-right: 42px;
+}
+
+.container .row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+}
+
+.project-area h2 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35.6662px;
+    text-align: center;
+    color: #0E0E0E;
+    margin-bottom: 74px;
+    line-height: 48px;
+}
+
+.project-area {padding: 47px 0;background: #FAFAFA;}
+
+.col-project h5 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20.3807px;
+    line-height: 27px;
+    margin-top: 27px;
+}
+
+.col-project p {
+    margin-top: 13px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.2855px;
+    line-height: 25px;
+    color: #575757;
+}
+
+.col-project {
+    margin-bottom: 40px;
+}

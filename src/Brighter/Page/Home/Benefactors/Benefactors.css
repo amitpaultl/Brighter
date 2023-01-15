@@ -1,0 +1,92 @@
+.benefactors-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 27px;
+}
+
+.benefactors-single-card {
+    position: relative;
+    z-index: 1;
+    /* transition: .3s; */
+}
+
+.benefactors-social {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    z-index: 3;
+    visibility: hidden;
+}
+
+.benefactors-social a svg {
+    font-size: 20px;
+    color: #fff;
+}
+
+.benefactors-single-card:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    z-index: 2;
+    background: #0E0E0E;
+    opacity: 0.35;
+    visibility: hidden;
+}
+
+.benefactors-single-card img {
+    height: 100%;
+}
+
+.benefactors-social a {
+    margin: 0 14px;
+}
+
+.benefactors-social a svg:hover {
+    color: aquamarine;
+}
+
+.benefactors-single-card:hover .benefactors-social , .benefactors-single-card:hover.benefactors-single-card:after {
+    visibility: visible;
+}
+
+.title-area h2 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35.6662px;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 95px;
+    position: relative;
+}
+
+.title-area h2:after {
+    border: 0;
+    background: #A3DA8D;
+    left: 307px;
+    width: 33%;
+    bottom: -5px;
+    height: 2px;
+    content: '';
+    position: absolute;
+}
+
+.title-area h2:before {
+    border: 0;
+    background: #A3DA8D;
+    right: 307px;
+    width: 33%;
+    bottom: -10px;
+    height: 2px;
+    content: '';
+    position: absolute;
+}
+
+.benefactors-area {
+    padding: 67px 0;
+}
