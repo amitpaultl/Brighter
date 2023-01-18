@@ -105,3 +105,58 @@ button.submit-btu {
     margin-left: 27px;
 }
 
+/* responsive css */
+
+@media (min-width: 1024px) and (max-width: 1159.98px) {
+
+    .footer-right {
+        width: auto;
+    }
+
+    .footer-center {
+        padding: 0 ;
+    }
+}
+
+@media (min-width: 204px) and (max-width: 1024.98px) {
+    .footer-border .row {
+        display: block;
+        text-align: center;
+    }
+
+    .footer-right {
+        width: auto;
+        text-align: center;
+    }
+
+    .footer-center ul {
+        display: block;
+    }
+
+    .footer-center ul li {
+        width: 105px;
+        margin: 10px auto;
+    }
+
+    .footer-left {
+        display: block;
+        align-items: flex-end;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 204px) and (max-width: 767.98px){
+    .footer-email input {
+        width: 100%;
+        margin-bottom: 11px;
+      
+    }
+
+    .copy-right-area {
+        display: block;
+       text-align: center;
+    }
+    .copy-right-area p{
+        margin-bottom: 10px;
+    }
+}

@@ -30,7 +30,7 @@
 
 .common-2 input {
     background: #FAFAFA;
-/* lex/green(30%) */
+    /* lex/green(30%) */
     border: 1.27379px solid #B9D1CD;
     border-radius: 3.39678px;
     width: 100%;
@@ -73,4 +73,59 @@
 
 .common-area {
     padding: 78px 0;
+}
+
+/* responsive */
+
+/* responsive */
+@media (min-width: 1024px) and (max-width: 1159.98px) {
+    .common-area .common-2 input {
+        width: auto;
+
+    }
+
+    .common-area .common-2 {
+        width: 100%;
+    }
+
+    .common-area .common-2 h3 {
+       
+        font-size: 21.6662px;
+        
+    }
+
+}
+@media (min-width: 768px) and (max-width: 1024.98px){
+
+    .common-area .row {
+      
+        grid-template-columns: repeat(1, 1fr);
+      
+    }
+
+    .common-area .common-3 > img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 204px) and (max-width: 767.98px) {
+
+    .common-area .common-3 {
+        display: none;
+    }
+
+    .common-area .row {
+        display: block;
+        text-align: center;
+     
+    }
+
+    .common-area .common-2 input{
+        width: auto !important;
+    }
+
+    .common-area .common-2 {
+        width: auto;
+    }
+
 }

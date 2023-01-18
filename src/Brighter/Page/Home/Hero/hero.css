@@ -139,3 +139,21 @@ button.bg-white {
     color: #000;
     margin-right: 42px;
 }
+
+/* responsive */
+@media (min-width: 204px) and (max-width: 768.98px){
+    .hero-text {
+        text-align: center;
+    }
+
+    .hero-text h2 {
+   
+        margin-left: 0;
+    }
+
+    .hero-text p {
+        text-align: center;
+        width: auto;
+        margin-bottom: 0;
+    }
+}

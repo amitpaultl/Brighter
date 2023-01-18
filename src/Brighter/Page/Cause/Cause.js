@@ -13,10 +13,10 @@ const Cause = () => {
     return (
         <div>
             <Hero></Hero>
-            <Story></Story>
+             <Story></Story>
             <Climate></Climate>
-            <Tabbs></Tabbs>
-            <Meet></Meet>
+            {/* <Tabbs></Tabbs> */}
+            {/* <Meet></Meet> */}
             <Interested></Interested>
             <Compulsive></Compulsive>
             <Around></Around>

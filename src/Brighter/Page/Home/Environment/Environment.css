@@ -90,3 +90,38 @@ span.border-bottom:before {
 .environment-area {
     padding: 90px 0;
 }
+
+/* responsive */
+
+/* responsive */
+@media (min-width: 204px) and (max-width: 991.98px){
+    .environment-area .row {
+        display: block;
+
+    }
+
+    .environment {
+        width: auto;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .environment-img img {
+        padding: 20px;
+    }
+
+    span.border-top:before {
+        display: none;
+    }
+    span.border-top::after {
+        display: none;
+    }
+
+    span.border-bottom:before {
+        display: none;
+    }
+
+    span.border-bottom:after {
+        display: none;
+    }
+}

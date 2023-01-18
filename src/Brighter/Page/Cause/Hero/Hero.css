@@ -60,3 +60,24 @@ p.herolink {
     margin-top: 20px;
     text-transform: uppercase;
 }
+
+/* responsive */
+@media (min-width: 204px) and (max-width: 991.98px){
+    
+
+    .hero-texts h3 {
+   
+        margin-left: 0;
+    }
+
+    .hero-texts {
+        text-align: center;
+    }
+    .hero-texts:after{
+        display: none;
+    }
+
+    p.herolink {
+        text-align: center;
+    }
+}

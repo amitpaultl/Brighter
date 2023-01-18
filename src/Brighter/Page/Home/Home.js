@@ -17,13 +17,13 @@ const Home = () => {
                 <Hero></Hero>
                 <Project></Project>
                 <Progessbar></Progessbar>
-                <Fetcher></Fetcher>
+                 <Fetcher></Fetcher>
                 <Action></Action>
                 <Benefactors></Benefactors>
                 <Environment></Environment>
-                <Case></Case>
-                <Testimonials></Testimonials>
-                <Common></Common>
+                {/* <Case></Case> */}
+                {/* <Testimonials></Testimonials> */}
+               <Common></Common>
             </div>
         </div>
     );

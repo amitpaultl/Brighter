@@ -5,11 +5,14 @@ import Route from './Brighter/Route/Route';
 
 function App() {
   return (
+    
     <div className='max-wide'>
       <RouterProvider router={Route}>
 
       </RouterProvider>
     </div>
+    
+   
   );
 }
 

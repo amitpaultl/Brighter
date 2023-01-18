@@ -90,3 +90,43 @@
 .benefactors-area {
     padding: 67px 0;
 }
+
+/* responsive */
+
+/* responsive */
+@media (min-width: 768px) and (max-width: 1159.98px){
+    .benefactors-card {
+       
+        grid-template-columns: repeat(2, 1fr);
+       
+    }
+
+    .benefactors-single-card img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 204px) and (max-width: 767.98px){
+    .benefactors-card {
+       
+        grid-template-columns: repeat(1, 1fr);
+       
+    }
+
+    .benefactors-single-card img {
+        width: 100%;
+    }
+
+    .title-area h2{
+        margin-bottom: 30px;
+    }
+
+    .title-area h2:before {
+        
+        display: none;
+    }
+    .title-area h2:after {
+        
+        display: none;
+    }
+}

@@ -25,10 +25,12 @@ const Climate = () => {
                             </div>
                         </div>
                     </div>
-                
-                <img src={bg1} className='bg1' alt="" />
-                <img src={bg2} className='bg2' alt="" />
-                <img src={bg3} className='bg3' alt="" />
+                <div className="img-clim">
+
+                    <img src={bg1} className='bg1' alt="" />
+                    <img src={bg2} className='bg2' alt="" />
+                    <img src={bg3} className='bg3' alt="" />
+                </div>
             </div>
         </div>
     );

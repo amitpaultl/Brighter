@@ -98,3 +98,43 @@ img.bg3 {
     left: 229px;
     bottom: 34px;
 }
+
+/* responsive */
+
+@media (min-width: 768px) and (max-width: 1024.98px){
+    .img-clim {
+        display: none;
+    }
+    .climate-area .row {
+        display: block;
+        padding: 0 64px;
+    }
+
+ 
+
+    .climate-area .climate-img > img {
+        width: 100%;
+    }
+
+    .climate-text {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 204px) and (max-width: 767.98px){
+
+    .img-clim {
+        display: none;
+    }
+
+    .climate-area .row {
+        display: block;
+        padding-left: 0;
+    }
+
+    .climate-img img{
+        display: none;
+    }
+
+}

@@ -30,7 +30,7 @@
 
 .common-2 input {
     background: #FAFAFA;
-/* lex/green(30%) */
+    /* lex/green(30%) */
     border: 1.27379px solid #B9D1CD;
     border-radius: 3.39678px;
     width: 100%;
@@ -149,7 +149,10 @@ button.bg-white {
     line-height: 48px;
 }
 
-.project-area {padding: 47px 0;background: #FAFAFA;}
+.project-area {
+    padding: 47px 0;
+    background: #FAFAFA;
+}
 
 .col-project h5 {
     font-family: 'Manrope';
@@ -172,4 +175,38 @@ button.bg-white {
 
 .col-project {
     margin-bottom: 40px;
+}
+
+/* responsive */
+@media (min-width: 768px) and (max-width: 1023.98px) {
+    .project-area .row {
+      
+        grid-template-columns: repeat(2, 1fr);
+       
+    }
+}
+
+@media (min-width: 204px) and (max-width: 767.98px) {
+    .project-area .row {
+       
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+}
+
+@media (min-width: 204px) and (max-width: 768.98px) {
+    .hero-text {
+        text-align: center;
+    }
+
+    .hero-text h2 {
+
+        margin-left: 0;
+    }
+
+    .hero-text p {
+        text-align: center;
+        width: auto;
+
+    }
 }

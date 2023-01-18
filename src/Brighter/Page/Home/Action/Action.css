@@ -34,3 +34,28 @@ button.action-btu {
     font-size: 13px;
     padding: 13px 33px;
 }
+
+/* responsive */
+@media (min-width: 204px) and (max-width: 991.98px){
+    img.action-img {
+        display: none;
+    }
+
+    .action-area {
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+    }
+
+    .action-text {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1159.98px) {
+    .action-area .action-text {
+        padding: 0 29px;
+        margin-right: 0;
+    }
+}

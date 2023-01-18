@@ -16,12 +16,53 @@ ul{
   padding: 0;
 }
 
-.max-wide{
-  width: 1160px;
-  margin: auto;
+
+
+
+ @media (min-width: 576px){
+
+  .max-wide {
+      width: 576px;
+      margin: auto;
+
+  }
+  .container {
+      width: auto;
+  }
 }
 
-.container{
-  width: 1024px;
-  margin: auto;
+@media (min-width: 768px){
+
+  .max-wide {
+      width: 768px;
+      margin: auto;
+
+  }
+  .container {
+      width: auto;
+  }
 }
+
+@media (min-width: 992px){
+
+  .max-wide {
+      width: 992px;
+      margin: auto;
+  }
+  .container {
+    width: 888px;
+    margin: auto;
+}
+}
+
+@media (min-width: 1160px){
+  .max-wide{
+    width: 1160px;
+    margin: auto;
+  }
+  .container {
+      width: 1024px;
+      margin: auto;
+  }
+} 
+

@@ -6,7 +6,7 @@ import Header from '../Share/Header';
 const Root = () => {
     return (
         <div>
-            <Header></Header>
+            {/* <Header></Header> */}
             <Outlet></Outlet>
             <Footer></Footer>
         </div>

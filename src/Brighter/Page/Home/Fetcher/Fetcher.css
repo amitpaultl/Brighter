@@ -64,3 +64,30 @@ button.case-btu.fetcher {color: #fff;border-color: #fff;margin-top: 27px;}
 .progress-text.fetcher span {
     right: 75px;
 }
+
+/* responsive */
+
+/* responsive */
+@media (min-width: 768px) and (max-width: 1159.98px){
+    .fetcher-area .row {
+       
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+
+    .fetcher-single img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 204px) and (max-width: 767.98px){
+    .fetcher-area .row {
+       
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+
+    .fetcher-single img {
+        width: 100%;
+    }
+}

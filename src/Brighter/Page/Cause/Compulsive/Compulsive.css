@@ -64,3 +64,29 @@
 .compulsive-area {
     padding: 67px 0;
 }
+
+/* responsive */
+
+@media (min-width: 104px) and (max-width: 991.98px){
+    .compulsive-area .row {
+       
+        grid-template-columns: repeat(1, 1fr);
+      
+    }
+
+    .compulsive-circle {
+        margin-top: 30px;
+    }
+
+    .single-circle {
+        text-align: center;
+    }
+}
+
+@media (min-width: 104px) and (max-width: 767.98px){
+    .compulsive-circle  {
+
+        grid-template-columns: repeat(1, 1fr);
+     
+    }
+}
