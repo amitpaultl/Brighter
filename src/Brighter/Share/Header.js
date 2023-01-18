@@ -42,8 +42,8 @@ const Header = () => {
                         </div>
                         <div className="menu">
                             <ul>
-                                <li><Link className='active'>Home <FiArrowUpRight></FiArrowUpRight></Link></li>
-                                <li><Link>Our Cause <FiArrowUpRight></FiArrowUpRight></Link></li>
+                                <li><Link to={'/'} className='active'>Home <FiArrowUpRight></FiArrowUpRight></Link></li>
+                                <li><Link to={'/cause'}>Our Cause <FiArrowUpRight></FiArrowUpRight></Link></li>
                                 <li><Link>Contact Us <FiArrowUpRight></FiArrowUpRight></Link></li>
                                 <li><Link>Cases<FiArrowUpRight></FiArrowUpRight></Link></li>
                                 <li><Link>Our Benefactors<FiArrowUpRight></FiArrowUpRight></Link></li>

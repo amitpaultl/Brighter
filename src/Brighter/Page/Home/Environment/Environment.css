@@ -1,0 +1,92 @@
+.environment-area .row {display: grid;grid-template-columns: repeat(2, 1fr);grid-gap: 25px;}
+
+.environment h2 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27.1742px;
+    line-height: 36px;
+    color: #0E0E0E;
+}
+
+.environment p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.2855px;
+    line-height: 25px;
+    margin-top: 13px;
+}
+
+.environment-img img {
+    width: 103.19px;
+    height: 27.17px;
+}
+
+.environment {
+    width: 403px;
+}
+
+img.pd-r {
+    padding: 25px 25px 26px 0;
+}
+
+img.pd-c {
+    padding: 25px;
+}
+
+img.pd-l {
+    padding: 25px 0 25px 25px;
+}
+
+img.border.pd-c {
+    padding: 25px;
+}
+
+span.border {
+    position: relative;
+}
+
+span.border-top:after {
+    position: absolute;
+    bottom: 3px;
+    left: -53px;
+    width: 270px;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.05);
+    content: '';
+}
+
+span.border-top:before {
+    position: absolute;
+    top: -61px;
+    left: -53px;
+    width: 270px;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.05);
+    content: '';
+}
+
+span.border-bottom:after {
+    position: absolute;
+    width: 1px;
+    height: 150px;
+    background: rgba(0, 0, 0, 0.05);
+    left: 0;
+    top: -97px;
+    content: '';
+}
+
+span.border-bottom:before {
+    position: absolute;
+    width: 1px;
+    height: 150px;
+    background: rgba(0, 0, 0, 0.05);
+    right: 0;
+    top: -97px;
+    content: '';
+}
+
+.environment-area {
+    padding: 90px 0;
+}

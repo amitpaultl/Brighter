@@ -1,0 +1,88 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.meet-slider .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* custom */
+
+.meet-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+    background: #146356;
+}
+
+.meet-slider {
+    width: 744px;
+}
+
+.meet-text {
+    width: 350px;
+    padding-left: 65px;
+    padding-right: 75px;
+}
+
+.meet-text h2 {
+    color: #F3EADA;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27.1512px;
+    line-height: 36px;
+    margin-bottom: 20px;
+}
+
+.meet-text p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.2726px;
+    line-height: 25px;
+    letter-spacing: 0.424238px;
+    color: #B9D1CD;
+}
+
+.single-meet-slider {
+    background: #146356;
+    text-align: left;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11.8787px;
+    line-height: 19px;
+    color: #5B9289;
+    letter-spacing: 0.424238px;
+}
+
+.single-meet-slider h4 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16.9695px;
+    line-height: 23px;
+    color: #F3EADA;
+    margin-top: 13px;
+}

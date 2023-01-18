@@ -1,0 +1,131 @@
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.testimonials .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* custom code */
+
+.testimonials .slider-testimonials > img {
+    width: 40px;
+}
+
+.testimonials .slider-testimonials > p {
+    margin-top: 27px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.2855px;
+    line-height: 25px;
+    text-align: left;
+    margin-bottom: 33px;
+}
+
+.testimonials .user-info {
+    display: flex;
+    align-items: center;
+}
+
+.testimonials .user-info img {
+    width: 50px;
+    margin-right: 6px;
+}
+
+.testimonials .user-text {
+    text-align: left;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11.8887px;
+    line-height: 19px;
+}
+
+.testimonials .user-text h5 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16.9839px;
+    line-height: 23px;
+}
+
+.testimonials .slider-testimonials {
+    padding: 20px;
+    background: #FAFAFA;
+}
+
+.testimonials {
+    padding: 72px 0;
+}
+
+.testimonials .swiper {
+    padding: 0 0 90px 0;
+}
+.testimonials .swiper-pagination-bullet{
+    background: #5B9289;
+    opacity: 8;
+}
+.testimonials .swiper-pagination-bullet-active{
+    background: #A3DA8D;
+}
+
+.case-slider .swiper-button-prev.swiper-button-disabled:after {
+    font-size: 20px;
+}
+
+.case-slider .swiper-button-prev, .swiper-rtl .swiper-button-next {
+    bottom: 54px;
+    margin-top: 177px;
+    width: 51px;
+    color: #A3DA8D;
+    height: 51px;
+    border: 2px solid #A3DA8D;
+    border-radius: 50%;
+}
+
+.case-slider .swiper-button-next {
+    margin-top: 177px;
+    left: 80px;
+    color: #A3DA8D;
+    border: 2px solid #A3DA8D;
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+}
+
+.case-slider .swiper-button-next:after {
+    font-size: 20px;
+}
+
+.case-slider .swiper {
+    padding-bottom: 84px;
+}
+

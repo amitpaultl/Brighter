@@ -1,0 +1,34 @@
+.progressbar .row{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+
+.progressbar-circle {
+    width: 119px;
+    margin: auto;
+}
+
+.single-progressbar {
+    text-align: center;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20.3807px;
+    line-height: 27px;
+    color: #0E0E0E;
+}
+
+.single-progressbar h2 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64.5388px;
+    line-height: 86px;
+    color: #146356;
+}
+
+
+.progressbar {
+    padding: 67px 0;
+}

@@ -73,6 +73,7 @@
 
 .common-area {
     padding: 78px 0;
+    background: #FAFAFA;
 }
 
 .hero-text h4 {
@@ -131,7 +132,7 @@ button.bg-white {
     margin-right: 42px;
 }
 
-.container .row {
+.project-area .row {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 25px;

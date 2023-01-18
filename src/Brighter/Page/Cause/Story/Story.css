@@ -1,0 +1,61 @@
+.story-area .row {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 59px;
+    padding-bottom: 72px;
+}
+
+.story-text h5 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.1817px;
+    line-height: 14px;
+    letter-spacing: 2.54543px;
+    color: #146356;
+    text-transform: uppercase;
+}
+
+.story-text h2 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48.3631px;
+    line-height: 64px;
+    margin-bottom: 54px;
+}
+
+.story-text p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.2726px;
+    line-height: 25px;
+    letter-spacing: 0.424238px;
+    color: #575757;
+    margin-bottom: 64px;
+}
+
+.story-text ul li svg {
+    color: #146356;
+    margin-right: 13px;
+    font-size: 27px;
+}
+
+.story-text ul li {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.2726px;
+    line-height: 25px;
+    color: #0E0E0E;
+    letter-spacing: 0.424238px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 21px;
+}
+
+.story-text {
+    padding-right: 75px;
+
+}

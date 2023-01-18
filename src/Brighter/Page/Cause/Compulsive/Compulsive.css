@@ -1,0 +1,66 @@
+.compulsive-area .row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 27px;
+    align-items: center;
+}
+
+.compulsive-circle{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 27px;
+}
+
+.compulsive-text h2 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27.1512px;
+    line-height: 36px;
+    color: #0E0E0E;
+    margin-bottom: 20px;
+}
+
+.compulsive-text p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.2726px;
+    line-height: 25px;
+    letter-spacing: 0.424238px;
+    color: #575757;
+}
+
+.compulsive-text {
+    padding-right: 39px;
+}
+
+.single-circle {
+    text-align: right;
+    margin-bottom: 27px;
+}
+
+.single-circle img {
+    width: 66px;
+}
+
+.single-circle h2 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64.4841px;
+    line-height: 86px;
+    color: #146356;
+}
+
+.single-circle p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20.3634px;
+    line-height: 27px;
+}
+
+.compulsive-area {
+    padding: 67px 0;
+}
